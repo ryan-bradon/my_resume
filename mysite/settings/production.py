@@ -5,7 +5,7 @@ from urllib.parse import urlparse
 
 DEBUG = False
 DATABASE_URL = os.getenv('DATABASE_URL', None)
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["ryanbradon.work", "does.ryanbradon.work", "octopus-app-tfxkh.ondigitalocean.app"]
 
 if not DATABASE_URL:
     DATABASES = {
