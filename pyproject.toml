@@ -5,5 +5,8 @@ description = "My resume/cv powered by Wagtail and Python."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "dj-database-url>=2.2.0",
+    "gunicorn>=23.0.0",
+    "psycopg2-binary>=2.9.9",
     "wagtail>=6.2.1",
 ]
