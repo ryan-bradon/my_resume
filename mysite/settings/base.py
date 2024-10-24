@@ -165,7 +165,7 @@ STORAGES = {
 
 # Wagtail settings
 
-WAGTAIL_SITE_NAME = "Ryan Bradon ($whoami)"
+WAGTAIL_SITE_NAME = "Ryan Bradon"
 
 # Search
 # https://docs.wagtail.org/en/stable/topics/search/backends.html
