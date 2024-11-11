@@ -1,2 +1,6 @@
 wagtail>=6.2.1
 psycopg2-binary
+wagtailmetadata
+wagtail-resume
+gunicorn
+
