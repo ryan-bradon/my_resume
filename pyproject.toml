@@ -1,0 +1,11 @@
+[project]
+name = "mysite"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.32.3",
+    "wagtail>=6.3.1",
+    "wagtail-resume>=2.10.0",
+]
