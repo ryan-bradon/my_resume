@@ -8,4 +8,6 @@ dependencies = [
     "wagtail-resume>=2.9.0",
     "wagtail>=6.2.2",
     "wagtail-metadata",
+    "gunicorn>=23.0.0",
+    "psycopg-binary>=3.2.3",
 ]
