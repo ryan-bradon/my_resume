@@ -3,7 +3,7 @@ import os
 from urllib.parse import urlparse
 
 
-DEBUG = False
+DEBUG = True
 DATABASE_URL = os.getenv('DATABASE_URL', None)
 ALLOWED_HOSTS = ["ryanbradon.work", "ryanbradon-does-work-puko4.ondigitalocean.app"]
 
