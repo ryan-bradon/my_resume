@@ -10,3 +10,10 @@ class HomePage(Page):
     content_panels = Page.content_panels + [
         FieldPanel('body'),
     ]
+
+
+from wagtail_resume.models import BaseResumePage
+
+
+class ResumePage(BaseResumePage):
+    pass
