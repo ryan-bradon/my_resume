@@ -1,0 +1,9 @@
+[project]
+name = "my_resume"
+version = "0.1.0"
+description = "This is who I am. This is what I do."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "wagtail>=6.3.1",
+]
