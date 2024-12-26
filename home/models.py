@@ -5,3 +5,10 @@ from wagtail.models import Page
 
 class HomePage(Page):
     pass
+
+
+from wagtail_resume.models import BaseResumePage
+
+
+class ResumePage(BaseResumePage):
+    pass
