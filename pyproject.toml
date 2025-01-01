@@ -1,7 +1,7 @@
 [project]
 name = "my-resume"
 version = "0.1.0"
-description = "Add your description here"
+description = "Resume website builder using Wagtail"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
